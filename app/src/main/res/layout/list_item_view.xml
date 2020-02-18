@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="400dp"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp"
+    android:paddingStart="16dp"
+    android:paddingEnd="16dp"
+    android:id="@+id/parent"
+    android:gravity="center_vertical"
+    >
+
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/circleimage"
+            android:layout_width="85dp"
+            android:layout_height="93dp"
+            android:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="211dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="settitle"
+            android:textColor="#000"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="31dp"
+            android:layout_height="74dp"
+            android:layout_gravity="center"
+            android:text="..."
+            android:textColor="#FFF"
+            android:background="@color/colorPrimary"
+            android:textSize="24sp"/>
+    </TableRow>
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="379dp"
+        android:layout_height="234dp"
+        android:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/text_list_item"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_marginStart="8dp"
+        android:gravity="center_horizontal"
+        android:text="example list"
+
+        android:textSize="15sp" />
+
+</LinearLayout>
